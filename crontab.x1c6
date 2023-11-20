@@ -1,1 +1,1 @@
-30 * * * *  bash -lc syncrclone
+0 1-23/2 * * *  bash -lc syncrclone
