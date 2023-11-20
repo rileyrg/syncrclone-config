@@ -63,9 +63,10 @@ rclone_exe = "rclone"
 #
 # These should be specified as a list. For example, to exclude *.exc, do
 # ['--exclude','*.exc']
-#
+
+##
 # See warnings in the readme about --exclude-if-present
-filter_flags = []
+filter_flags = ["--filter-from", "excludes.txt"]
 
 # General rclone flags are called every time rclone is called. This is how
 # you can specify things like the conifg file.
